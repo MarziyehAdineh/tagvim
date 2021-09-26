@@ -24,7 +24,7 @@ export default class Tagvim extends Component {
               type="datetime-local"
               id="birthdaytime"
               name="birthdaytime"
-              placeholder="تقویم"
+              placeholder="lتقویم"
             />
           </div>
           {/* <input  id="input1" 
