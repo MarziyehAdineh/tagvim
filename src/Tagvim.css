@@ -1,0 +1,77 @@
+svg {
+  background-color: transparent;
+}
+#wing {
+  fill: #81ccaa;
+}
+#body {
+  fill: #b8e4c2;
+}
+#pupil {
+  fill: #1f2600;
+}
+#beak {
+  fill: #f69c0d;
+}
+.eye-ball {
+  fill: #f6fdc4;
+}
+#main {
+  width: 500px;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+#box {
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.12);
+  padding-left: 50px;
+  padding-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  border-radius: 5px 5px 5px 5px;
+  border: solid 2px rgb(70, 130, 180);
+  background-color: rgb(127, 255, 212);
+}
+#box:focus-within {
+  background: #f9f98b;
+}
+svg:focus-within {
+  background-color: #f9f98b;
+}
+#input1 {
+  border-radius: 1px;
+  font-family: IranSans;
+  direction: rtl;
+  font-size: 16px;
+ 
+  height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+
+  display: inline-block;
+  width: 200px;
+  margin: 20px auto;
+}
+img {
+  margin-top: 50px;
+}
+#BottomBox {
+  position: absolute;
+  border: 2px solid red;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+  top: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 10;
+  margin-top: 5px;
+}
